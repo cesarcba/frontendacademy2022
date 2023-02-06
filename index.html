@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Miriam</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Abel|Bungee+Hairline|Sacramento|Raleway|Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+<body>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Curriculum</h1>
+  <h2>Miriam Lafranzoni</h2>
+  <img src="./47.jpg">
+  <hr />
+  <br>
+  <p class="head">Informaci&oacute;n Personal</p>
+  <ul>
+    <li>Miriam Lafranzoni</li>
+    <li>Av. Los Nogales 1230, Cordoba Capital, Argentina</li>
+    <li>09/03/1982</li>
+    <li>miriam@lanfranzoni.com</li>    
+	<li><button onclick="masDatosPersonalesDialog.showModal()">M&aacute;s datos Personales</button></li>  
+  </ul>
+  <dialog id="masDatosPersonalesDialog">
+	  <form method="dialog">
+		<p>
+		  N&uacute;mero de contacto: 3513669966
+		</p>
+		<div>
+		  <button value="cancel">Cerrar</button>
+		</div>
+	  </form>
+  </dialog>
+  
+  
+  
+  <br>
+  <p class="head">Experiencia</p>
+  <ul>
+    <li><strong>10/2018 - Presente Analista - Programador, Servicios T&eacute;cnicos IT, Bilbao</strong></li>
+	<ul>
+		<li>Toma de requerimientos con el cliente</li>
+		<li>An&aacute;lisis de requerimientos y dise&ntilde;o de aplicaciones</li>
+		<li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL</li>
+		<li>Soporte t&eacute;cnico a clientes</li>
+	</ul>
+    <li><strong>12/2014 - 10/2018 Programador Full Stack, Finanbest, Madrid</strong></li>
+	<ul>
+		<li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+		<li>Realizaci&oacute;n de test de aplicaciones</li>
+		<li>Soluci&oacute;n de incidencias</li>
+	</ul>
+  </ul>
+  <br>
+  <p class="head">Habilidades</p>
+  <ul>
+	<li>Javacript</li>
+	<li>PHP</li>
+	<li>HTML5</li>
+	<li><button onclick="masHabilidadesDialog.showModal()">M&aacute;s habilidades</button></li>  	
+  </ul>  
+  <dialog id="masHabilidadesDialog">
+	  <form method="dialog">
+		<p>
+			<ul>
+				<li>Typescript</li>
+				<li>Angular</li>
+				<li>Bootstrap</li>
+			</ul>
+		</p>
+		<div>
+		  <button value="cancel">Cerrar</button>
+		</div>
+	  </form>
+  </dialog>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Miriam Lafranzoni</h2></div>
+ 
+</body>
+</html>
